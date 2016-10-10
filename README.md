@@ -17,8 +17,8 @@ To run the application in non-docker environment:
 
 The application will run and become available on port 8080 i.e [http://localhost:8080/api/v1/shoppinglist](http://localhost:8080/api/shoppinglist).
 
-##Running in a Docker conatiner
-For convinience I've also created a Dockerfile to build and run the application in a container. The 'docker' profile is used to hookin H2 as a database rather than Postgres for simplicity. To run the app in a docker container:
+##Running in a Docker container
+For convenience I've also created a Dockerfile to build and run the application in a container. The 'docker' profile is used to hook-in H2 as a database rather than Postgres for simplicity. To run the app in a docker container:
 
 * Build the docker image
 
@@ -31,7 +31,7 @@ For convinience I've also created a Dockerfile to build and run the application 
 Access the application at [http://localhost:8080/api/v1/shoppinglist](http://localhost:8080/api/v1/shoppinglist) and Swagger documentation at [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ## Available endpoints
-The API exposes endpoints to manage shopping lists, create and manage collaboration invitations. Endpoint capabilities exposed by this API are documented using Swagger API documentations and to see list of avaialble operations navigate to [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html).
+The API exposes endpoints to manage shopping lists, create and manage collaboration invitations. Endpoint capabilities exposed by this API are documented using Swagger API documentations and to see list of available operations navigate to [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html).
 
 ### Authentication
 ![Authenticate through OAuth](images/authentication.png)
@@ -52,6 +52,3 @@ Create invitation
 
 Accept invitation
 ![Accept invite](images/accept-invite.png)
-
-
-
