@@ -23,7 +23,7 @@ The application will run and become available on port 8080 i.e http://localhost:
 The API exposes endpoints to manage shopping lists, create and manage collaboration invitations. Endpoint capabilities exposed by this API are documented using Swagger API documentations and to see list of avaialble operations navigate to http://localhost:8080/swagger-ui.html.
 
 ### Authentication
-[Authenticate through OAuth](images/authentication.png)
+![Authenticate through OAuth](images/authentication.png)
 
 ###View list of shopping lists
 
