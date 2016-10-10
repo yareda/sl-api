@@ -25,13 +25,22 @@ The API exposes endpoints to manage shopping lists, create and manage collaborat
 ### Authentication
 ![Authenticate through OAuth](images/authentication.png)
 
-###View list of shopping lists
+###Shopping list
+List of shoppinglist
+![Shopping list](images/shoppinglist.png)
 
-###View shopping list detail
+Shoppinglist detail 
+![Shopping list detail](images/shoppinglist-detail.png)
 
-###Create collaboration invitation
+Create new shoppinglist
+![Create shopping list](images/create-shoppinglist.png)
 
-###Accept collaboration invitation
+###Collaboration invitation
+Create invitation
+![Create invite](images/create-invite.png)
+
+Accept invitation
+![Accept invite](images/accept-invite.png)
 
 
 
