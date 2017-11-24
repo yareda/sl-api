@@ -6,7 +6,7 @@ A shopping list API application accessible from client applications (mobile apps
 ## Tools and technology
 The application is a REST API built with SpringBoot, PostgresSQL and Gradle.
 
-##Build and run
+## Build and run
 The application uses Gradle to build, test and run the API.
 Note: I've added spring profile support to use different database storages (H2 and Postgres). I used Postgres while developing the API and included H2 for supporting Docker deployments.
 
