@@ -1,9 +1,9 @@
-#ShoppingList API
+# ShoppingList API
 
-##Introduction
+## Introduction
 A shopping list API application accessible from client applications (mobile apps and SPA web apps) and provides features for managing shopping list, shopping list items and allows users to invite other users to collaborate on a shopping list they own.
 
-##Tools and technology
+## Tools and technology
 The application is a REST API built with SpringBoot, PostgresSQL and Gradle.
 
 ##Build and run
@@ -17,7 +17,7 @@ To run the application in non-docker environment:
 
 The application will run and become available on port 8080 i.e [http://localhost:8080/api/v1/shoppinglist](http://localhost:8080/api/shoppinglist).
 
-##Running in a Docker container
+## Running in a Docker container
 For convenience I've also created a Dockerfile to build and run the application in a container. The 'docker' profile is used to hook-in H2 as a database rather than Postgres for simplicity. To run the app in a docker container:
 
 * Build the docker image
@@ -36,7 +36,7 @@ The API exposes endpoints to manage shopping lists, create and manage collaborat
 ### Authentication
 ![Authenticate through OAuth](images/authentication.png)
 
-###Shopping list
+### Shopping list
 List of shoppinglist
 ![Shopping list](images/shoppinglist.png)
 
